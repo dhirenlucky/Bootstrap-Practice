@@ -1,0 +1,42 @@
+/* .navbar-down{
+    top: 20vh;
+    background-color: #1A2A33;
+    justify-content: space-evenly;
+    justify-content: center;
+} */
+
+body{
+    background-color: darkslategray;
+}
+
+/* form{
+    position: absolute;
+    height: 5vh;
+    width: 100vw;
+    top: 10vh;
+    justify-content: center;
+} */
+
+.searchinput{
+    width: 40vw;
+}
+
+h1 {
+  font-family: "Times New Roman", serif; 
+  font-size: 4em;
+  color:white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ @media(min-width: 576px){
+    .bg-dark-sm{
+        background-color: #1A2A33 !important;
+    }
+
+}
+
