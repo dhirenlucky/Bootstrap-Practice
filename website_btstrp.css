@@ -40,3 +40,43 @@ h1 {
 
 }
 
+.custom-bg .carousel-inner,
+.custom-bg .carousel-item,
+.custom-bg .carousel-item img {
+    width: 100%;
+    height: 100%;          
+}
+
+ @media(max-width: 576px){
+   
+ .custom-bg, .custom-bg .carousel-inner,
+.custom-bg .carousel-item,
+.custom-bg .carousel-item img {
+    width: 60vw;
+    height: 30vh;          
+}
+}
+
+.custom-modal .modal-content{
+    width: 30vw;
+    height: 50vh;
+    margin-top: 25vh;
+   
+}
+
+.custom-modal{
+     overflow: visible !important;
+}
+
+ .modal-backdrop {
+    z-index: 1010 !important;
+}
+
+.modal{
+    z-index: 1050 !important;
+}
+.modal-dialog {
+    z-index: 1055 !important;
+}
+
+
