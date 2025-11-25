@@ -79,4 +79,15 @@ h1 {
     z-index: 1055 !important;
 }
 
+.custom-bgclr{
+    background-color: blanchedalmond;
+}
+
+.font-sharp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    text-align: justify;
+}
+
+
 
